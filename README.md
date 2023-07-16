@@ -38,7 +38,7 @@ En primera instancia el análisis se llevó a cabo a través de un notebook util
 
 ![velocidad_media](imagenes/velocidad_media.png)
 
-Por otra parte a la empresa se le sugieren 3 KPIs: Penetración de Internet fijo, Proporción de accesos a Internet fijo a través de banda ancha y la Velocidad media de descarga del servicio de Internet fijo en Argentina.
+Por otra parte a la empresa se le sugieren 3 KPIs basados en la: Penetración de Internet fijo, Proporción de accesos a Internet fijo a través de banda ancha fija y la Velocidad media de descarga del servicio de Internet fijo en Argentina.
 
 Por último se presenta un dashboard en PowerBI con el objetivo de resumir y presentar la información de manera clara y concisa a la empresa así como mencionar los insights obtenidos a partir del análisis, los cuales permitirán a la empresa prestadora de servicios de telecomunicaciones mejorar la calidad del servicio y a impulsar un crecimiento sostenible en el futuro.
 
