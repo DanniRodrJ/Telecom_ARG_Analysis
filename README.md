@@ -8,7 +8,7 @@ El acceso a Internet se ha convertido en una necesidad básica en la vida cotidi
 
 Para las empresas prestadoras de servicios de telecomunicaciones, brindar un servicio de calidad que satisfaga las necesidades de sus clientes es vital para su éxito. Los clientes esperan un acceso rápido y confiable a Internet, sin interrupciones o problemas de conexión. Además, los clientes también buscan servicios personalizados y adaptados a sus necesidades, lo que significa que las empresas deben estar atentas a las tendencias y necesidades del mercado para poder ofrecer soluciones adecuadas.
 
-En este contexto, como parte de mi formación como Data Analytics en la edtech Henry, se me asignó un proyecto donde la empresa **K-Sistem Tecnology** me designa la realización de un análisis completo del comportamiento del sector de las telecomunicaciones a nivel nacional en Argentina. Este análisis permitirá reconocer las tendencias y patrones en el comportamiento del mercado, identificar oportunidades de crecimiento y mejorar la calidad de los servicios ofrecidos.
+En este contexto, como parte de mi formación como Data Analytics en la edtech [Henry](https://www.soyhenry.com/), se me asignó la simulación de un proyecto real donde la empresa **K-Sistem Tecnology** me designa la realización de un análisis completo del comportamiento del sector de las telecomunicaciones a nivel nacional en Argentina. Este análisis permitirá reconocer las tendencias y patrones en el comportamiento del mercado, identificar oportunidades de crecimiento y mejorar la calidad de los servicios ofrecidos.
 
 ## ```Objetivos```
 
@@ -22,15 +22,21 @@ El objetivo principal de este análisis es proporcionar información detallada s
 
 ## ```Desarrollo del Proyecto```
 
-Para lograr estos objetivos, se utilizaron los datasets proporcionados por ![ENACOM](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/), incluyendo la penetración de Internet fijo por hogares a nivel nacional, el total nacional de accesos a Internet fijo por banda ancha y banda angosta, el acceso a Internet fijo por tecnología y provincia, la velocidad media de bajada de Internet fijo por provincia y los accesos a Internet fijo por velocidad de bajada y provincia.
+Para lograr estos objetivos, se utilizaron los datasets proporcionados por [ENACOM](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/), incluyendo la penetración de Internet fijo por hogares a nivel nacional, el total nacional de accesos a Internet fijo por banda ancha y banda angosta, el acceso a Internet fijo por tecnología y provincia, la velocidad media de bajada de Internet fijo por provincia y los accesos a Internet fijo por velocidad de bajada y provincia.
 
 En primera instancia el análisis se llevó a cabo a través de un notebook utilizando herramientas de análisis estadístico y visualización de datos para realizar un análisis exploratorio de cada uno de los datasets destacando los siguientes puntos:
 
 - Los resultados del análisis muestran que la penetración de Internet fijo varía significativamente entre las diferentes provincias de Argentina. Por ejemplo, algunas provincias tienen una penetración de más del 60%, mientras que otras apenas alcanzan el 40%. Esto indica que hay oportunidades de crecimiento en aquellas provincias donde la penetración es baja. La empresa prestadora de servicios de telecomunicaciones podría enfocar sus esfuerzos en estas provincias para aumentar su participación en el mercado y brindar acceso a Internet a un mayor número de personas.
 
+![accesos_hogares](imagenes/accesos_hogares.png)
+
 - Además, la proporción de accesos de banda ancha es un indicador importante de la calidad del servicio de Internet fijo. En Argentina, más del 90% de los accesos a Internet fijo son de banda ancha, lo que indica que la empresa prestadora de servicios de telecomunicaciones debe enfocar su participación en este segmento del mercado.
 
-- La velocidad media de descarga de Internet fijo varía entre las diferentes provincias de Argentina. Mientras que algunas provincias tienen una velocidad media de descarga de más de 20 Mbps, otras apenas alcanzan los 10 Mbps. Esto indica que hay oportunidades para mejorar la calidad del servicio de Internet fijo en algunas áreas. La empresa prestadora de servicios de telecomunicaciones podría enfocar sus esfuerzos en aquellas provincias donde la velocidad media de descarga es más baja para mejorar la calidad de su servicio y satisfacer mejor las necesidades de sus clientes.
+![mapa](imagenes/banda_ancha_dialup.png)
+
+- La velocidad media de descarga de Internet fijo varía entre las diferentes provincias de Argentina. Mientras que algunas provincias tienen una velocidad media de descarga de más de 30 Mbps, otras apenas alcanzan los 10 Mbps. Esto indica que hay oportunidades para mejorar la calidad del servicio de Internet fijo en algunas áreas. La empresa prestadora de servicios de telecomunicaciones podría enfocar sus esfuerzos en aquellas provincias donde la velocidad media de descarga es más baja para mejorar la calidad de su servicio y satisfacer mejor las necesidades de sus clientes.
+
+![velocidad_media](imagenes/velocidad_media.png)
 
 Por otra parte a la empresa se le sugieren 3 KPIs: Penetración de Internet fijo, Proporción de accesos a Internet fijo a través de banda ancha y la Velocidad media de descarga del servicio de Internet fijo en Argentina.
 
@@ -54,6 +60,6 @@ Por último se presenta un dashboard en PowerBI con el objetivo de resumir y pre
 
 ## ```Referencias```
 
-- Datasets obtenidos de ![ENACOM](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/)
+- Datasets obtenidos de [ENACOM](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/)
 
 - El archivo geojson del mapa de Argentina proviene de [Kaggle](https://www.kaggle.com/datasets/pablomgomez21/geojson-file-provincias-argentinas)
