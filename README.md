@@ -83,34 +83,28 @@ Por otra parte a la empresa se le sugieren los siguientes KPIs:
   Este KPI permite evaluar la adopción del servicio de Internet fijo a nivel nacional y comparar el crecimiento a lo largo del tiempo. Un aumento en la penetración indica una mayor demanda y oportunidades de crecimiento en el mercado.
   - **Métrica**: Porcentaje de aumento en la adopción del servicio de Internet fijo en un período determinado (por ejemplo, trimestral o anual).
   - **Objetivo**: Aumentar la penetración de Internet en un 5% respecto al año anterior.
-  
-- **KPI2 (Distribución de accesos por tipo de conexión)**
-  
-  Este KPI proporciona información sobre la preferencia de los usuarios por la banda ancha y la demanda de servicios de mayor velocidad. Ayuda a la empresa a comprender qué tipo de conexiones son más populares y a adaptar su oferta de servicios en consecuencia.
-  - **Métrica**: Porcentaje de aumento en la proporción de accesos de banda ancha en comparación con la banda angosta en un período determinado
-  - **Objetivo**: Aumentar la proporción de accesos de banda ancha en un 10% respecto al trimestre anterior.
 
-- **KPI3 (Velocidad promedio de descarga)**
-  
-  Este KPI proporciona información sobre la calidad del servicio de Internet fijo en diferentes provincias. La empresa podría utilizar este KPI para identificar áreas donde la calidad del servicio de Internet fijo es más baja y trabajar para mejorarla
-  - **Métrica**: Velocidad promedio de descarga en megabits por segundo (Mbps) en un período determinado.
-  - **Ejemplo**: Mejorar la velocidad promedio de descarga a 50 Mbps en el transcurso del año.
-
-- **KPI4 Extra (Ranking de tecnologías)**
+- **KPI2 (Penetración de Fibra Óptica al Final del Año)**
 
   Las tecnologías más modernas, como la fibra óptica, ofrecen mayores velocidades y mayor capacidad de transmisión de datos. Migrar a tecnologías más avanzadas mejora la calidad del servicio, permite ofrecer mayores velocidades de conexión y brinda ventajas competitivas en el mercado.
   - **Métrica**: Porcentaje de migración a tecnologías modernas, como la fibra óptica, en un período determinado.
-  - **Objetivo**: Lograr que el 30% de los accesos de Internet fijo estén basados en fibra óptica para finales del año.
+  - **Objetivo**: Lograr que el 20% de los accesos de Internet fijo estén basados en fibra óptica para finales del año.
+
+- **KPI3 (Velocidad promedio de descarga en provincias con baja calidad de servicio)**
+  
+  Este KPI proporciona información sobre la calidad del servicio de Internet fijo en diferentes provincias. La empresa podría utilizar este KPI para identificar áreas donde la calidad del servicio de Internet fijo es más baja y trabajar para mejorarla
+  - **Métrica**: Velocidad promedio de descarga en megabits por segundo (Mbps) en las provincias donde la velocidad promedio es inferior a 50 Mbps
+  - **Objetivo**: Aumentar la velocidad promedio de descarga en estas provincias a 0 Mbps en el transcurso del año.
 
 ## 🛢️ ```Base de Datos```
 
 Se creó una base de datos analítica a fin de conectarla a Power BI para brindar la capacidad de realizar análisis en profundidad, generar visualizaciones dinámicas y obtener insights valiosos a partir de los datos almacenados.
 
-![modelo]()
-
 ##  🗺️ ```Dashboard```
 
 Por último se presenta un dashboard en PowerBI con el objetivo de resumir y presentar la información de manera clara y concisa a la empresa así como mencionar los insights obtenidos a partir del análisis, los cuales permitirán a **K-System Technology** mejorar la calidad del servicio y a impulsar un crecimiento sostenible en el futuro.
+
+![gif_dashboard](imagenes/dashboard.gif)
 
 ## 🛠️ ```Tecnologías y Herramientas utilizadas```
 
@@ -124,7 +118,8 @@ Por último se presenta un dashboard en PowerBI con el objetivo de resumir y pre
 
     ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00.svg?style=for-the-badge&logo=Google-Colab&logoColor=white)
 
-- **MySQL**:
+- **MySQL**:  es un sistema de gestión de bases de datos relacional 
+
 - **PowerBI**: es una plataforma de análisis de datos y visualización de Microsoft, la cual se utilizó para la realización del dashboard
 
     ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811.svg?style=for-the-badge&logo=Power-BI&logoColor=white)
