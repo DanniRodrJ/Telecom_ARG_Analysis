@@ -70,7 +70,7 @@ Sin embargo, la limitada presencia de la tecnología de Fibra Óptica en la mayo
 
 ### 🔼 Velocidad media de descarga de Internet fijo
 
-La velocidad media de descarga de Internet fijo varía entre las diferentes provincias de Argentina. Mientras que algunas provincias tienen una velocidad media de descarga de más de 30 Mbps, otras apenas alcanzan los 10 Mbps. Esto indica que hay oportunidades para mejorar la calidad del servicio de Internet fijo en algunas áreas. La empresa prestadora de servicios de telecomunicaciones podría enfocar sus esfuerzos en aquellas provincias donde la velocidad media de descarga es más baja para mejorar la calidad de su servicio y satisfacer mejor las necesidades de sus clientes.
+La velocidad media de descarga de Internet fijo varía entre las diferentes provincias de Argentina. Mientras que algunas provincias tienen una velocidad media de descarga de más de 30 Mbps, otras apenas alcanzan los 10 Mbps. Esto indica que hay oportunidades para mejorar la calidad del servicio de Internet fijo en algunas áreas. La empresa **K-System Tecnology** podría enfocar sus esfuerzos en aquellas provincias donde la velocidad media de descarga es más baja para mejorar la calidad de su servicio y satisfacer mejor las necesidades de sus clientes.
 
 ![velocidad_media](imagenes/velocidad_media.png)
 
@@ -93,8 +93,8 @@ Por otra parte a la empresa se le sugieren los siguientes KPIs:
 - **KPI3 (Velocidad promedio de descarga en provincias con baja calidad de servicio)**
   
   Este KPI proporciona información sobre la calidad del servicio de Internet fijo en diferentes provincias. La empresa podría utilizar este KPI para identificar áreas donde la calidad del servicio de Internet fijo es más baja y trabajar para mejorarla
-  - **Métrica**: Velocidad promedio de descarga en megabits por segundo (Mbps) en las provincias donde la velocidad promedio es inferior a 50 Mbps
-  - **Objetivo**: Aumentar la velocidad promedio de descarga en estas provincias a 0 Mbps en el transcurso del año.
+  - **Métrica**: Velocidad promedio de descarga en megabits por segundo (Mbps) en las provincias donde la velocidad promedio es inferior a 30 Mbps
+  - **Objetivo**: Aumentar la velocidad promedio de descarga en estas provincias a 25 Mbps en el transcurso del año.
 
 ## 🛢️ ```Base de Datos```
 
@@ -118,7 +118,9 @@ Por último se presenta un dashboard en PowerBI con el objetivo de resumir y pre
 
     ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00.svg?style=for-the-badge&logo=Google-Colab&logoColor=white)
 
-- **MySQL**:  es un sistema de gestión de bases de datos relacional 
+- **MySQL**:  es un sistema de gestión de bases de datos relacional donde se alojó la data para que fuera consumida por PowerBI.
+
+    ![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 - **PowerBI**: es una plataforma de análisis de datos y visualización de Microsoft, la cual se utilizó para la realización del dashboard
 
