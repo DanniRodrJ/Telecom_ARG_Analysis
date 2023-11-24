@@ -100,6 +100,8 @@ Por otra parte a la empresa se le sugieren los siguientes KPIs:
 
 Se creó una base de datos analítica a fin de conectarla a Power BI para brindar la capacidad de realizar análisis en profundidad, generar visualizaciones dinámicas y obtener insights valiosos a partir de los datos almacenados.
 
+Para esto se utilizó SQLAlchemy
+
 ##  🗺️ ```Dashboard```
 
 Por último se presenta un dashboard en PowerBI con el objetivo de resumir y presentar la información de manera clara y concisa a la empresa así como mencionar los insights obtenidos a partir del análisis, los cuales permitirán a **K-System Technology** mejorar la calidad del servicio y a impulsar un crecimiento sostenible en el futuro.
@@ -112,7 +114,7 @@ Por último se presenta un dashboard en PowerBI con el objetivo de resumir y pre
 
     ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
 
-- **Librerías de Python**: se utilizaron diversas librerías de Python para diferentes tareas en el proyecto como pandas, numpy, matplotlib, seaborn y geopandas
+- **Librerías de Python**: se utilizaron diversas librerías de Python para diferentes tareas en el proyecto como Pandas, Numpy, Matplotlib, Seaborn y Geopandas, SQLAlchemy
 
 - **Google Colab**: plataforma de Jupyter Notebook basada en la nube que se utilizó para el EDA (Análisis Exploratorio de datos)
 
@@ -132,11 +134,19 @@ Por último se presenta un dashboard en PowerBI con el objetivo de resumir y pre
 
 - El archivo geojson del mapa de Argentina proviene de [Kaggle](https://www.kaggle.com/datasets/pablomgomez21/geojson-file-provincias-argentinas)
 
+- El archivo ```geo_argentina.csv``` con la latitud y longitud de cada provincia, fue generado por la **IA ChatGPT**
+
+- Los datos respecto a la población por provincias de Argentina para el año 2022 y los relacionados a la población total de Argentina desde el 2014 hasta el 2022, fueron generados por la **IA Bard**. La información proviene del Instituto Nacional de Estadística y Censos ([INDEC](https://www.indec.gob.ar/)).
+  
 ## 👩‍💻 ```Data Scientist```
+
+Si deseas contactarme, simplemente haz clic sobre mi nombre y serás redirigido a mi perfil de LinkedIn. Estaré encantada 🤗 de responder a tus consultas y compartir más detalles sobre mis habilidades y experiencia.
+
+<div align="center">
 
 [<img src="https://avatars.githubusercontent.com/u/123108361?v=4" width=115><br><sub>Danniela Rodríguez</sub>](https://www.linkedin.com/in/danniela-rodriguez-jove-/)
 
-[![gmail](https://img.shields.io/badge/gmail-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dannielarodriguezjove@gmai.com)
+<div align="left">
 
 ## 🙌 ```Agradecimiento y Actualizaciones```
 
