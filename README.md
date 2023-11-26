@@ -34,20 +34,6 @@ Los resultados del análisis mostraron que **la penetración de Internet fijo** 
 
 ![accesos_hogares](imagenes/penetracion_100hogares.png)
 
-### 🔼 Accesos a banda ancha y banda angosta por provincia
-
-En Argentina, más del 90% de los accesos a Internet fijo son por banda ancha.
-
-![mapa](imagenes/banda_ancha_dialup_total.png)
-
-Los datos evidenciaron un claro incremento en el número de accesos de banda ancha fija a lo largo de los años, lo que indica una demanda creciente de conexiones de alta velocidad y mayor capacidad. Además, se observó un aumento significativo en los años más recientes, lo que sugiere una mayor necesidad de conectividad debido a los cambios en la forma en que trabajamos, estudiamos y nos comunicamos, especialmente a raíz de la pandemia de COVID-19.
-
-Por otro lado, el dial-up ha experimentado una disminución relevante en su popularidad y número de accesos, lo que indica que esta tecnología está quedando obsoleta siendo reemplazada por opciones más rápidas y eficientes, como la banda ancha fija.
-
-![mapa](imagenes/banda_ancha_dialup.png)
-
-En resumen, enfocar los esfuerzos en servicios de banda ancha permitirá a la empresa satisfacer la creciente demanda de conectividad de alta velocidad y mantenerse al día con las necesidades y expectativas de los usuarios. Esto implica invertir en infraestructura de banda ancha, mejorar la calidad del servicio y ofrecer opciones atractivas para los clientes que buscan conectividad confiable y rápida.
-
 ### 🔼 Accesos a Internet fijo por tipo de tecnología
 
 ![tecnologias](imagenes/tecnologia_anio.png)
@@ -100,7 +86,7 @@ Por otra parte a la empresa se le sugieren los siguientes KPIs:
 
 Se creó una base de datos analítica a fin de conectarla a Power BI para brindar la capacidad de realizar análisis en profundidad, generar visualizaciones dinámicas y obtener insights valiosos a partir de los datos almacenados.
 
-Para esto se utilizó SQLAlchemy
+![PDA](imagenes/PDA.png)
 
 ##  🗺️ ```Dashboard```
 
